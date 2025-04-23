@@ -54,11 +54,7 @@ MyProject/
 
 * Компилируем тестовый код
 
-```
-```
-jabac -d out -cp "/usr/share/java/junit-jupiter-api-5.3.2.jar:/usr/share/java/junit-platform-console-standalone-1.3.2.jar:out" -sourcepath src/test/java src/test/java/CalculatorTest.java
-```
-```
+`jabac -d out -cp "/usr/share/java/junit-jupiter-api-5.3.2.jar:/usr/share/java/junit-platform-console-standalone-1.3.2.jar:out" -sourcepath src/test/java src/test/java/CalculatorTest.java`
 
 * Скомпилированный класс появится в **src/**
 
@@ -79,8 +75,4 @@ MyProject/
 * Переходим в директорию **our/**
 * Запускаем тест 
 
-```
-```
-java -jar /usr/share/java/junit-platform-console-standalone-1.3.2.jar --classpath . --scan-class-path
-```
-```
+`java -jar /usr/share/java/junit-platform-console-standalone-1.3.2.jar --classpath . --scan-class-path`
